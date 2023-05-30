@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main- print_alphabet - prints alphabet
+ * print_alphabet - prints alphabet
  * @k - computed varible
  *
  * Return: Always 0 (Success)
