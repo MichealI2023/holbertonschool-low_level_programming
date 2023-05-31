@@ -15,12 +15,12 @@ return (1); /* Positive number */
 }
 else if (n < 0)
 {
-_putchar(48);
-return (0); /* Zero */
+_putchar(45);
+return (-1); /* Negative Number */
 }
 else
 {
-_putchar(45);
-return (-1); /* Negative number */
+_putchar(48);
+return (0); /* Zero*/
 }
 }
