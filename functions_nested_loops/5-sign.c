@@ -10,17 +10,17 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-_putchar('+');
+_putchar(43);
 return (1); /* Positive number */
 }
-else if (n == 0)
+else if (n < 0)
 {
-_putchar("0");
+_putchar(48);
 return (0); /* Zero */
 }
 else
 {
-_putchar("-");
+_putchar(45);
 return (-1); /* Negative number */
 }
 }
