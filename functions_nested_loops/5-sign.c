@@ -15,12 +15,12 @@ return (1); /* Positive number */
 }
 else if (n == 0)
 {
-printf("0");
+_putchar("0");
 return (0); /* Zero */
 }
 else
 {
-printf("-");
+_putchar("-");
 return (-1); /* Negative number */
 }
 }
