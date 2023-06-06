@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,7 +7,7 @@
  *
  * Return: nothing
  */
-void swap_int(int *a, nint *b)
+void swap_int(int *a, int *b)
 /* the function that swaps the values of two interger. */
 {
 	int temp = *a;
