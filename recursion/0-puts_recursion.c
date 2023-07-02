@@ -1,18 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- *  void _puts_recursion - proto
+ *  _puts_recursion - proto
  *  @s: intger
  *  Return: Always 0 (Success)
  */
 
-void _puts_recursion(char *s);
-
+void _puts_recursion(char *s)
 {
-	for(char*s = "Puts with recursion")
-	printf (*s /n)
+	if(*s)
+	{
+		_putchar(*s);
+		_puts_recursion(s + 1);
+	}
 
-	return (0);
+	else
+		_putchar('\n');
 }
 		
